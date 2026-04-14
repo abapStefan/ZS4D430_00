@@ -1,0 +1,11 @@
+@EndUserText.label: 'Abteilung (Zugriffssteuerung)'
+@MappingRole: true
+define role Z40_R_DEPARTMENT2 {
+    grant 
+        select
+            on
+                Z40_R_DEPARTMENT2
+                    where
+                       id  = 'ADMIN'; // aspect pfcg_auth( /LRN/DPMNT, /LRN/DPMNT, ACTVT = '03');
+                        
+}

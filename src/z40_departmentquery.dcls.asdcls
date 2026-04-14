@@ -1,0 +1,11 @@
+@EndUserText.label: 'Abteilungsabfrage (Zugriffssteuerung)'
+@MappingRole: true
+define role Z40_DEPARTMENTQUERY {
+    grant
+        select
+            on
+                Z40_DEPARTMENTQUERY
+                    where
+                        inheriting conditions from entity Z40_R_DEPARTMENT2;
+                        
+}

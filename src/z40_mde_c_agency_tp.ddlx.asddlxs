@@ -1,0 +1,8 @@
+@Metadata.layer:#CUSTOMER
+annotate entity /DMO/C_AgencyTP
+    with 
+{
+    @EndUserText.label: 'Meine Alternative für Name'
+    Name;
+    
+}
